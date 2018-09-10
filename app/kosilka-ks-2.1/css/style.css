@@ -1,0 +1,167 @@
+*
+{
+margin:0;
+padding:0;
+}
+
+#header_c
+{
+position:fixed;
+background-color:#f6f6f6;
+width:100%;
+height:130px;
+text-align:left; 
+z-index:1;
+box-shadow: 1px 2px 15px 1px #000;
+
+}
+#back{
+position:absolute;
+left:132px;
+top: 247px;
+width: 483px;
+height: 30px;
+z-index:2;
+}
+#upp{
+opacity: 0.4;
+background-color:#f6f6f6;
+position:absolute;
+left:0px;
+top: 0px;
+width:52px;
+height:100%;
+z-index:3; 
+position:fixed;
+display:block;
+}
+#upp img{
+padding-top: 60px;
+}
+#upp:hover{
+opacity: 0.8;
+background: url(images/fancy_deboss.png);
+box-shadow: 1px 2px 15px 1px #000;
+}
+.search{
+color:#FF0000;
+text-align:right;
+margin-top:-88px;
+margin-right:20px;
+}
+html,body {
+background-color: #fff;
+}
+
+#header {
+text-align:center;
+
+}
+
+#main {
+width:1000px;
+height:900px;
+margin:0 auto;
+}
+
+#main_table tr td img {
+padding:10px;
+}
+
+#main_table tr td img:hover {
+background-color:#0CF;
+padding:10px;
+}
+
+#main_table #1 tr td img:hover {
+background-color:#0CF;
+background-image:url(../images/prf.gif);
+padding:10px;
+}
+
+#pict {
+background-attachment:fixed;
+position:relative;
+width:600px;
+height:470px;
+background-repeat:norepeat;
+text-align:center;
+}
+
+#pict img {
+border-radius:10px;
+}
+
+@font-face {
+font-family:myFont;
+src:url(http://fonts.googleapis.com/css?family=Marck+Script);
+}
+
+#pict>span {
+font-family:myFont;
+font-size:12px;
+border:#000 1px solid;
+margin:auto 9px;
+}
+
+#tbl {
+top:-467px;
+background-color:#CFC;
+border:1px solid #CCC;
+border-radius:10px;
+padding:10px;
+}
+
+#tbl td {
+cursor:pointer;
+}
+
+#tbl tr:hover,#pict>span:hover,.hvr {
+color:#FAFCFA;
+background-color:#00F;
+cursor:pointer;
+}
+
+.tabl {
+position:absolute;
+padding:0;
+}
+
+.gallerycontainer {
+position:relative;
+}
+
+.thumbnail img {
+border:1px solid #FFF;
+margin:0 0 5px;
+border-radius:10px;
+}
+
+.thumbnail:hover {
+background-color:#ae997a;
+}
+
+.thumbnail span {
+position:absolute;
+background-color:#FFFFE0;
+left:-1000px;
+border:1px dashed gray;
+visibility:hidden;
+color:#000;
+text-decoration:none;
+padding:5px;
+}
+
+.thumbnail span img {
+border-width:0;
+padding:2px;
+}
+
+.thumbnail:hover span {
+border-radius:10px;
+visibility:visible;
+top:0;
+left:630px;
+z-index:50;
+background-color:#ae997a;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Каталог</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/materialize.css">
+
+  </head>
+  <body>
+   
+      <div class="row">
+        <div class="col m3">
+            <div class="page">
+              <div class="page__price p-b">
+              <a href="#!">скачать прайс</a>
+            </div>
+            <div class="page__phone p-b">
+              <a href="#modal2" class="waves-effect modal-trigger">заказать звонок</a>
+            </div>
+            <div class="page__delivery p-b">
+              <a href="#modal1" class="waves-effect modal-trigger">доставка</a>
+            </div>
+            </div>
+        </div>
+        <div class="col m6">
+          <div class="page__img">
+            <img src="img/page-img/plug.jpg" width="450px" alt="">
+          </div>
+        </div>
+        <div class="col m3">
+          <div class="menu">
+            <div class="menu__price">
+              <h5>14.000 <span class="rub">Р</span> с НДС</h5>
+            </div>
+            <a href="#!" class="menu__btn">заказать сейчас</a>
+            <a href="#!" class="menu__сatalog">Перейти в каталог</a> <br>
+            <span>Как получить товар:</span> <br>
+              <div class="menu__btn-grup">
+                <a href="#!" class="valign-wrapper"><i class="Small material-icons">local_shipping</i>Самовывоз</a> <br>
+              <a href="#!" class="valign-wrapper"><i class="Small material-icons">local_shipping</i>Доставка в регионы</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="modal2" class="modal modal__header">
+    <div class="modal-content">
+      <h4>Заказать звонок</h4>
+      <div class="row row__modal__header">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12 m6 l6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Ваше имя</label>
+        </div>
+        <div class="input-field col s12 m6 l6">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Телефон</label>
+        </div>
+      </div>
+    </form>
+  </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn">заказать</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">закрыть</a>
+    </div>
+  </div>
+    <!-- Modal header -->
+ <!--End modal-->
+    <div id="modal1" class="modal modal__header">
+      <div class="modal-content">
+        <ul id="tabs-swipe-demo" class="tabs">
+          <li class="tab col s12 m4"><a class="active" href="#test-swipe-1">Для частных лиц</a></li>
+          <li class="tab col s12 m4"><a href="#test-swipe-2">Для организаций</a></li>
+          <li class="tab col s12 m4"><a href="#test-swipe-3">Доставка</a></li>
+        </ul>
+        <div id="test-swipe-1" class="col s12">
+          <p>Уважаемые покупатели! Наша организация специально разработала схему торговли с частными лицами - наложенный платёж. Сделать заказ можно используя заказ онлайн Документы необходимые для оформления заказа ФИО полностью, паспортные данные, место проживания, номер моб. телефона, эл. адрес почты.После оформления заказа на грабли-ворошилки осуществляется доставка транспортной компанией "Кит" до терминала Вашего города. Оплата граблей производится при получении на терминале транспортной компании вашего города. Информация по доставке
+            Подробная информации по бесплатному номеру 8-800-555-32-01
+          </p>
+        </div>
+        <div id="test-swipe-2" class="col s12">
+          <p>Уважаемые клиенты! Наша организация занимается оптовыми поставками сельскохозяйственной техники и запчастей практически в каждый регион России. Для оптовых организаций, и постоянных клиентов предусмотрены скидки и возможность рассрочки платежа. Работаем с НДС, наличный и безналичный расчёт, короткие сроки отгрузки. Доставка до терминалов транспортных компаний города Иваново производится бесплатно. Сделать заказ можно используя прайс-лист
+            Для более подробной информации Вы можете связаться с нами по бесплатному номеру телефона8-800-555-32-01
+          </p>
+        </div>
+        <div id="test-swipe-3" class="col s12">
+          <p>Уважаемые покупатели! Наша организация поставляет товар в любой регион России. Мы осуществляем доставку транспортными компаниями 
+            ООО "Деловые линии", Кит а также попутным транспортом. Доставка до терминала ТК г. Иваново бесплатно. Ориентировочную стоимость доставки Вы можете уточнить у наших менеджеров используя онлайн консультант.Для того, чтобы оформить заказ на товар используйте прайс-лист
+            Для более подробной информации Вы можете связаться с нами по бесплатному номеру телефона8-800-555-32-01
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">закрыть</a>
+      </div>
+    </div>
+      <!--End modal-->
+
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="js/materialize.js"></script>
+
+    <script src="js/common.js"></script>
+  </body>
+</html>

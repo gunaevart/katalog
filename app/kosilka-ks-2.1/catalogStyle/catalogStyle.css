@@ -1,0 +1,10 @@
+﻿.catalog__menu  {
+	display: flex;
+	justify-content: space-around;
+}
+iframe#top-ItemFrame {
+	min-width: 100%;
+	margin: 0 auto;
+	height: 100vh;
+	border: 0;
+}

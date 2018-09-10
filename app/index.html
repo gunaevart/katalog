@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Каталог</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="http://allfont.ru/allfont.css?fonts=hermes" rel="stylesheet" type="text/css" />
+    <link href="http://allfont.ru/allfont.css?fonts=europe-normal" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <section class="section cyan lighten-3">
+        <div class="container">
+          <div class="contact__item">
+            <div class="phone">
+              <a href="#" class="valign-wrapper"><i class="Small material-icons">phone</i> Телефон</a>
+            </div>
+            <div class="local_shipping">
+              <a href="#" class="valign-wrapper"><i class="Small material-icons">local_shipping</i>Доставка и оплата</a>
+            </div>
+            <div class="phone">
+              <a href="#" class="valign-wrapper"><i class="Small material-icons">error_outline</i> Ка оформить заказ</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l6">
+          <div class="logo__container valign-wrapper">
+            <a class="logo__item" href="#">ООО Агрокомплект</a>
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <div class="time__work right-align">
+            <span>Время работы: пн-пт 8:00-17:00</span><br>
+            <span class="red-text">сб выходной</span><br>
+            <span class="red-text">вс выходной</span>
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <div class="phone__work">
+            <h5><a href="phone:+7 (800) 555-32-01">+7 (905) 109-42-00</a></h5>
+            <h5><a href="phone:+7 (800) 555-32-01">+7 (800) 555-32-01</a></h5>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m12 l3 valign-wrapper">
+          <a href="#modal1"class="waves-effect waves-light btn cyan lighten-3 modal-trigger"><i class="material-icons left">call</i>Заказать звонок</a>
+        </div>
+        <div class="col s12 m12 l6">
+          <div class="row">
+            <div class="col s12 m6 l8">
+              <div class="input-field">
+                <i class="Small material-icons prefix">search</i><input onclick="this.placeholder='' "placeholder="Введите данные для поиска (номер, название и т.д.)" id="search" type="text" class="validate">
+                <label for="search">Поиск по каталогу</label>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="search__btn">
+                <a class="btn cyan lighten-3" href="#">Искать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l3">
+          <a class="valign-wrapper" href="mailto:89109867353@mail.ru"><i class="Small material-icons prefix">mail</i>89109867353@mail.ru</a>
+          <a class="valign-wrapper" href="mailto:agro.complect@mail.ru"><i class="Small material-icons prefix">mail</i>agro.complect@mail.ru</a>
+          <a class="valign-wrapper" href="mailto:victorpaleh@mail.ru"><i class="Small material-icons prefix">mail</i>victorpaleh@mail.ru</a>
+        </div>
+      </div>
+    </header>
+    <section class="section navbar__section">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <nav class="nav-extended  cyan">
+              <div class="nav-wrapper ">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="hide-on-med-and-down">
+                  <li><a href="#">Главная</a></li>
+                  <li><a href="#">Каталог</a></li>
+                  <li><a href="#">Прайс</a></li>
+                  <li><a href="#">Доставка</a></li>
+                  <li><a href="#">Карта сайта</a></li>
+                  <li><a href="#">О нас</a></li>
+                </ul>
+              </div>
+            </nav>
+            <ul class="sidenav" id="mobile-demo">
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">Прайс</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Карта сайта</a></li>
+              <li><a href="#">О нас</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section__cart">
+      <h3 class="center">каталог товаров</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5 class="header">Плуг Л-101 </br>Цена: 30.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/plug.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>Плуг 2-корпусный навесной Л-101 предназначен для пахоты почвы на мелкоконтурных участках садов и огородов.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5 class="header">Культиватор окучник КОН-1,4 </br>Цена: 95.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/cultivator.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Предназначен для нарезки гребней, довсходовой 
+                    и послевсходовой обработки междурядий 
+                    с одновременным боронованием и окучиванием.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5 class="header">Косилка КСФ-2.1 </br>Цена: 35.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/kosilkaks.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Сегментная навесная. Произведена Белорусским заводом «Бобруйсксельмаш». Косилка ксф максимально упрощена. Имеет сварной усиленный режущий аппарат.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5 class="header">Грабли ворошилки ГВК 3М(6мм) </br>Цена: 25.550 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/grabli.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Грабли ворошилки ГВК-3.5М (5 колёс) производство
+                    ООО "Агрокомплект" Россия. 
+                    Доставка в любой регион России 
+                    Любая форма оплаты!
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5 class="header">ПРФ-145 "Бобруйскагромаш" </br>Цена: 450.000<span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/prf145.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Каталог запчастей для пресс-подборщика прф-110, прф-145.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5 class="header">ПРФ-180 "Бобруйскагромаш" </br>Цена: 500.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/prf180.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Запчасти для пресс-подборщика прф-180, прф-750.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5 class="header">ПР-145С "Бежецксельмаш" </br>Цена: 500.000<span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/prs145s.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Пресс-подборщик рулонный ПР-145С и Каталог запчастей для ПР-145С.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5 class="header">Грабли ГВР-630 "Бобруйскагромаш" </br>Цена: 300.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/gvr630b.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Грабли-ворошилка ГВР-630 предназначены для сгребания травы из прокосов в валки, ворошения травы в прокосах, оборачивания, разбрасывания валков.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5 class="header">Грабли ГВР-6 г. Лида </br>Цена: 300.000<span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/gvr6.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Грабли-ворошилки ГВР-6 предназначены для сгребывания травы из прокосов в валки, ворошения скошенной массы в прокосах, оборачивания и разбрасывания валков.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5 class="header">Грабли ГВР-6Р "Бежецксельмаш" </br>Цена: 300.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/gvr6r.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Грабли-ворошилки ГВР-6 выполняют сгребание свежескошенных или подсушенных трав из прокосов в валки, ворошение и оборачивание травы Любая форма оплаты!
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5 class="header">Грабли боковые ГВК-3.0 </br>Цена: 0.00 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/gvk3.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Грабли-ворошилки ГВК-3 Предназначены для сгребания провяленной травы из прокосов в валки, ворошения её в прокосах и оборачивания валков.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5 class="header">Грабли боковые ГВК-6.0 </br>Цена: 0.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/gvk6.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Грабли ГВК-6 предназначены для сгребания сена в валок, ворошения рассыпного сена, ворошения валков и сдваивания валков.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5 class="header">Картофелекопатель КТН-2В </br>Цена: 115.00 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/ktn2v.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Картофелекопатель КТН-2В навесной двухрядный предназначен для выкапывания картофеля, частичного отделения клубней от почвы и укладывания их на поверхность поля для дальнейшей подборки.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5 class="header">Картофелекопатель КСТ-1,4А </br>Цена: 0.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/kst1_4.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Картофелекопатель полунавесной двухрядный КСТ-1,4М (далее по тексту копатель) предназначен для выкапывания картофеля частичного отделения клубней картофеля от почвы и укладывания их на поверхность поля для дальнейшей подборки
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5 class="header">Косилка КРН-2.1 </br>Цена: 150.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/krn21.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Косилка предназначена для скашивания естественных и сеяных трав, в том числе высокоурожайных и полеглых с укладкой скошенной массы в прокос.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5 class="header">Косилка дисковая навесная КДН-210 </br>Цена: 150.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/kdn210.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Для заготовки кормов в сельском хозяйстве проблема покупки высокопроизводительной, универсальной, долговечной, но при этом дешевой в обслуживании и непритязательной в ремонте техники всегда стоит на первом месте.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5 class="header">Косилка роторная КРН-2.1 </br>Цена: 000.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/krn21b.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Косилка ротационная навесная КРН-2,1 Б используется для скашивания трав и прокоса газонов. Косилка ротационная КРН-2,1 навешивается на тракторы типа МТЗ (классов 0,9 и 1,4).
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5 class="header">Пресс-подборщик тюковый ПТ-165 </br>Цена: 150.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/pt165.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Пресс подборщик тюковый ПТ-165, применяется в сельском хозяйстве для подбора и прессования сена, соломы в прямоугольные тюки. прессование происходит за счет возвратно-поступательного движения поршня в прессовальной камере.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5 class="header">Машина вторичной очистки семян самопередвижная МС-4.5 </br>Цена: 000.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/ms.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                   Машина самопередвижная вторичной очистки семян МС-4,5 используется для вторичной очистки зерновых, зернобобовых культур, подсолнечника, кукурузы и др. от различных примесей на открытых площадках, токах с твердым покрытием, складах во всех климатических зонах.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5 class="header">Кормоуборочный комбайн Марал-125 Maral Е-281 </br>Цена: 000.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/maral.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Каталог запчастей на Е-281 "MARAL-125" (Е-281 "MARAL-125"). Самоходный комбайн предназначен для уборки трав и кормовых культур на больших площадях, как с определенной шириной междурядий, так и на полях сплошного посева.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5 class="header">Самоходная косилка-плющилка Е-303 </br>Цена: 000.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/e303.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                   Самоходная косилка-плющилка Е-303 Предназначена для скашнвання трав с одновременным плющением скошенных растений и укладкой их в валки на стерне. Основные узлы: самоходное шасси Е-307/08 с кабиной и дизельным двигателем; плющильный аппарат.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5 class="header">Комбайн кормоуборочный КСК-100</br>Цена: 000.000 <span class="rub">Р</span> с НДС</h5>
+            <div class="card horizontal">
+              <div class="card-image">
+                <a href="#"><img src="img/main-img/ksk.jpg"></a>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Сельскохозяйственная машина самоходного типа, КСК комбайн предназначен для скашивания валков, а также их подбирания.  Кормоуборочный комбайн КСК 100 развивает рабочую скорость передвижения двенадцать километров в час, а скоростные возможности транспорта.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">perm_data_setting</i>запчасти</a>
+                  <a href="#" class="valign-wrapper left"><i class="small material-icons">dvr</i>каталог</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- Modal header -->
+  <div id="modal1" class="modal modal__header">
+    <div class="modal-content">
+      <h4>Заказать звонок</h4>
+      <div class="row row__modal__header">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12 m6 l6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Ваше имя</label>
+        </div>
+        <div class="input-field col s12 m6 l6">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Телефон</label>
+        </div>
+      </div>
+    </form>
+  </div>
+    </div>
+    <div class="modal-footer">
+    	<a href="#" class="btn">заказать</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">закрыть</a>
+    </div>
+  </div>
+    <!-- LiveReload -->
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/Masked.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
